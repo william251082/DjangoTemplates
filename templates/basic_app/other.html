@@ -1,11 +1,7 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>WELCOME TO OTHER!</h1>
+{% extends "basic_app/base.html" %}
+  {% block body_block %}
 
-  </body>
-</html>
+    <h1>WELCOME TO OTHER!</h1>
+    <h2>This is an example of template inheritance!</h2>
+    {% endblock %}
